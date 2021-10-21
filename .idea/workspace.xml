@@ -2,14 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75cae6ac-ec77-4622-b202-c39f9eed5074" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning-nextjs2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/build-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/images/wuks7bIVsFQnTr-Vb646TgWxnwh8KdgRDHiYLiXib+s=/0.1634789141719.WSfgv5W6oesdpHnxmpdfyDlYLr3gf-iB21GX9XmkeSw=.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/0.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/1.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/2.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/3.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/index.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/client-development/index.pack.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/server-development/0.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/server-development/1.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/server-development/index.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/cache/webpack/server-development/index.pack.old" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/react-loadable-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/pages-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/pages/_document.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/server/webpack-runtime.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/amp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/node_modules_next_dist_client_dev_noop_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/pages/_app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/pages/_error.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/react-refresh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/chunks/webpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/development/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/development/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/webpack/4527019c52cd85a60041.webpack.hot-update.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/.next/static/webpack/webpack.4527019c52cd85a60041.hot-update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/next-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/public/Profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/footer/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/header/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/layout/Layout.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/components/layout/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/api/hello.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/users/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/pages/users/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/styles/Home.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/styles/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,32 +76,41 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1zlVfabhRiNznAl89QgD4HUxs09" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ui" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -76,8 +133,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +150,9 @@
       <workItem from="1634731853507" duration="62000" />
       <workItem from="1634731941997" duration="47000" />
       <workItem from="1634731994632" duration="39000" />
-      <workItem from="1634732050461" duration="20000" />
+      <workItem from="1634732050461" duration="837000" />
+      <workItem from="1634788069516" duration="126000" />
+      <workItem from="1634788254575" duration="965000" />
     </task>
     <servers />
   </component>
@@ -111,6 +170,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

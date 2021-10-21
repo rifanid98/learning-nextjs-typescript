@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
 import Layout from '../../components/layout';
-import { User } from '../../../domain/user';
+import { User } from '../../../domain/entity/user';
+import UsersInteractor from '../../../usecase/users/users.interactor';
 
 interface UserDetailProps {
   user: User
@@ -30,8 +31,7 @@ const UserDetail = (props: UserDetailProps) => {
 export default UserDetail;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/users');
-  const users: Array<User> = await response.json();
+  const users = await UsersInteractor.getInstance().getAllUsers();
 
   const paths = users.map((user) => ({
     params: {
@@ -46,8 +46,8 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps = async (context: GetStaticPropsContext) => {
-  const response = await fetch(`https://jsonplaceholder.typicode.com/users/${context?.params?.id}`);
-  const user: User = await response.json();
+  const id = context?.params?.id ?? 1;
+  const user = await UsersInteractor.getInstance().getUser(Number(id));
 
   return {
     props: {

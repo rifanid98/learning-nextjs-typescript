@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64bb8e1-46e7-4488-bf83-6f76da3e49a2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning-nextjs-typescript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-nextjs-typescript.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/constant/rest.constant.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/repository/posts.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domain/repository/users.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/posts.rest.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/users.rest.repository.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-creator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-type.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/hook.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/usecase/posts/posts.interactor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/usecase/posts/posts.usecase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/usecase/users/users.interactor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/usecase/users/users.usecase.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/pages/blog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/pages/users/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/pages/users/[id].tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/adapter/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/adapter/pages/users/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/entity/post.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/domain/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/entity/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/domain/repository" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -36,6 +57,19 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/domain/repository" />
+      <recent name="$PROJECT_DIR$/src/infrastructure/persistence/server/rest" />
+      <recent name="$PROJECT_DIR$/src/usecase" />
+      <recent name="$PROJECT_DIR$/src/infrastructure/state/redux" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/domain/entity" />
+      <recent name="$PROJECT_DIR$/src/infrastructure/persistence" />
+      <recent name="$PROJECT_DIR$/src/infrastructure/state/redux" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm">
@@ -76,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1634793793805</updated>
-      <workItem from="1634793803515" duration="1416000" />
+      <workItem from="1634793803515" duration="18237000" />
     </task>
     <servers />
   </component>

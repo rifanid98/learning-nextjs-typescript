@@ -1,6 +1,7 @@
 import { GetServerSideProps } from 'next';
 import Layout from '../components/layout';
-import { Post } from '../../domain/post';
+import { Post } from '../../domain/entity/post';
+import PostsInteractor from '../../usecase/posts/posts.interactor';
 
 interface BlogProps {
   posts: Array<Post>
@@ -8,6 +9,7 @@ interface BlogProps {
 
 const Blog = (props: BlogProps) => {
   const { posts } = props;
+
   return (
     <Layout pageTitle="Blog Page">
       <div>Blog Page</div>
@@ -30,8 +32,8 @@ const Blog = (props: BlogProps) => {
 export default Blog;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const response = await fetch('https://jsonplaceholder.typicode.com/posts');
-  const posts: Array<Post> = await response.json();
+  const posts = await PostsInteractor.getInstance()
+    .getAllPosts();
 
   return {
     props: {

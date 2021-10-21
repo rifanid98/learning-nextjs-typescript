@@ -34,4 +34,4 @@ yarn-error.log*
 .vercel
 
 # custom
-/**/*/.next
+/src/ui/.next

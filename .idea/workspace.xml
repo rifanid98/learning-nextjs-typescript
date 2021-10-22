@@ -2,45 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b64bb8e1-46e7-4488-bf83-6f76da3e49a2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learning-nextjs-typescript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learning-nextjs-typescript.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/footer/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/header/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/layout/Layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/Layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/components/layout/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/next-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/api/hello.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/api/hello.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/blog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/blog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/users/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/public/Profile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/Profile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/public/vercel.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/public/vercel.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/styles/Home.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/Home.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/styles/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/adapter/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/repository/posts.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/repository/posts.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/domain/repository/users.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/domain/repository/users.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/posts.rest.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/posts.rest.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/users.rest.repository.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/server/rest/users.rest.repository.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-creator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-creator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-type.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/action-type.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure/persistence/state/redux/users/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/posts/posts.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/posts/posts.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/posts/posts.usecase.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/posts/posts.usecase.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/usecase/users/users.interactor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/usecase/users/users.interactor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src/infrastructure/state/redux" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="npm.build">
     <configuration name="build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="build" />
@@ -145,7 +111,7 @@
       <workItem from="1634867139228" duration="668000" />
       <workItem from="1634867848663" duration="214000" />
       <workItem from="1634868105313" duration="2437000" />
-      <workItem from="1634873205404" duration="5166000" />
+      <workItem from="1634873205404" duration="5709000" />
     </task>
     <servers />
   </component>

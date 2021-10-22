@@ -1,7 +1,8 @@
+import Layout from 'components/layout';
+import { Post } from 'domain/entity/post';
 import { GetServerSideProps } from 'next';
-import Layout from '../components/layout';
-import { Post } from '../../domain/entity/post';
-import PostsInteractor from '../../usecase/posts/posts.interactor';
+import React from 'react';
+import PostsInteractor from 'usecase/posts/posts.interactor';
 
 interface BlogProps {
   posts: Array<Post>
@@ -32,8 +33,7 @@ const Blog = (props: BlogProps) => {
 export default Blog;
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const posts = await PostsInteractor.getInstance()
-    .getAllPosts();
+  const posts = await PostsInteractor.getInstance().getAllPosts();
 
   return {
     props: {

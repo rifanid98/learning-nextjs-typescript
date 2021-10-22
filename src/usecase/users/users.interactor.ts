@@ -1,8 +1,7 @@
+import { User } from 'domain/entity/user';
+import { UsersRepository } from 'domain/repository/users.repository';
+import UsersRestRepository from 'infrastructure/persistence/server/rest/users.rest.repository';
 import { UsersUsecase } from './users.usecase';
-import { User } from '../../domain/entity/user';
-import { UsersRepository } from '../../domain/repository/users.repository';
-import UsersRestRepository
-  from '../../infrastructure/persistence/server/rest/users.rest.repository';
 
 class UsersInteractor implements UsersUsecase {
   private static instance?: UsersInteractor = null;

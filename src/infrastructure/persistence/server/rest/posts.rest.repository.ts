@@ -1,6 +1,6 @@
-import { PostsRepository } from '../../../../domain/repository/posts.repository';
-import { Post } from '../../../../domain/entity/post';
-import RestConstant from '../../../../common/constant/rest.constant';
+import RestConstant from 'common/constant/rest.constant';
+import { Post } from 'domain/entity/post';
+import { PostsRepository } from 'domain/repository/posts.repository';
 
 class PostsRestRepository implements PostsRepository {
   private static instance?: PostsRepository = null;

@@ -1,7 +1,7 @@
+import { Post } from 'domain/entity/post';
+import { PostsRepository } from 'domain/repository/posts.repository';
+import PostsRestRepository from 'infrastructure/persistence/server/rest/posts.rest.repository';
 import { PostsUsecase } from './posts.usecase';
-import { PostsRepository } from '../../domain/repository/posts.repository';
-import PostsRestRepository from '../../infrastructure/persistence/server/rest/posts.rest.repository';
-import { Post } from '../../domain/entity/post';
 
 class PostsInteractor implements PostsUsecase {
   private static instance?: PostsInteractor = null;

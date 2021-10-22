@@ -1,4 +1,4 @@
-import { User } from '../../../../../domain/entity/user';
+import { User } from 'domain/entity/user';
 import { UsersAction } from './actions';
 import ActionType from './action-type';
 
@@ -33,6 +33,12 @@ const usersReducer = (state: UsersState = initialState, action: UsersAction): Us
         loading: false,
         error: action.payload,
         data: [],
+      };
+    case ActionType.SAVE_ALL:
+      return {
+        loading: false,
+        error: null,
+        data: action.payload,
       };
     default:
       return state;

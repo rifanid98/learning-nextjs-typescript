@@ -1,7 +1,7 @@
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next';
 import Layout from '../../components/layout';
-import { User } from '../../../domain/entity/user';
-import UsersInteractor from '../../../usecase/users/users.interactor';
+import { User } from '../../domain/entity/user';
+import UsersInteractor from '../../usecase/users/users.interactor';
 
 interface UserDetailProps {
   user: User

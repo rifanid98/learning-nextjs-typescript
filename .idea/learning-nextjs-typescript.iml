@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/src/adapter/.next" />
       <excludeFolder url="file://$MODULE_DIR$/src/ui/.next" />
+      <excludeFolder url="file://$MODULE_DIR$/src/.next/traces" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

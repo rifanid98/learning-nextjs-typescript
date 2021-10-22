@@ -1,7 +1,8 @@
 import { Dispatch } from 'redux';
+import UsersRestRepository from 'infrastructure/persistence/server/rest/users.rest.repository';
 import { UsersAction } from './actions';
 import ActionType from './action-type';
-import UsersRestRepository from '../../../server/rest/users.rest.repository';
+import { User } from '../../../../../domain/entity/user';
 
 export const getAllUsers = () => async (dispatch: Dispatch<UsersAction>) => {
   dispatch({
@@ -22,6 +23,13 @@ export const getAllUsers = () => async (dispatch: Dispatch<UsersAction>) => {
       payload: e.message,
     });
   }
+};
+
+export const saveAllUsers = (users: Array<User>) => async (dispatch: Dispatch<UsersAction>) => {
+  dispatch({
+    type: ActionType.SAVE_ALL,
+    payload: users,
+  });
 };
 
 export const searchUsers = () => new Error('Not yet implemented');

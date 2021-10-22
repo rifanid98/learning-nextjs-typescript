@@ -17,7 +17,7 @@ const Custom404 = () => {
     if (count < 1) {
       goToHome();
     }
-  }, [count]);
+  }, [count, goToHome]);
 
   const onClick = () => {
     goToHome();

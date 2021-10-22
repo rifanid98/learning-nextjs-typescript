@@ -17,7 +17,7 @@ const Users = (props: UsersProps) => {
 
   useEffect(() => {
     saveAllUsers(users);
-  }, []);
+  }, [saveAllUsers, users]);
 
   const onClick = (id: number) => {
     router.push(`/users/${id}`);

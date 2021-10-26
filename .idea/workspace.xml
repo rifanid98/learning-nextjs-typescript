@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b64bb8e1-46e7-4488-bf83-6f76da3e49a2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/users/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/users/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="actions.on.save" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -63,7 +59,7 @@
       <recent name="$PROJECT_DIR$/src/infrastructure/state/redux" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.dev">
     <configuration name="build" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="build" />
@@ -111,7 +107,8 @@
       <workItem from="1634867139228" duration="668000" />
       <workItem from="1634867848663" duration="214000" />
       <workItem from="1634868105313" duration="2437000" />
-      <workItem from="1634873205404" duration="5709000" />
+      <workItem from="1634873205404" duration="5938000" />
+      <workItem from="1635257150354" duration="1325000" />
     </task>
     <servers />
   </component>
